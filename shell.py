@@ -168,5 +168,5 @@ def startShell(user_input, e):
         
 os.write(1, ("Welcome to the shell.\n").encode())
 e = os.environ
-e["PS1"] = ""
+e["PS1"] = "$ "
 startShell("", e)
